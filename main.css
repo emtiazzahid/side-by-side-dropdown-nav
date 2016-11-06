@@ -1,0 +1,111 @@
+.sub {
+    max-height: 0;
+    height: auto;
+    overflow: hidden;
+    transition: max-height 0s;
+    background: #fafafa;
+}
+.sub a{
+	color: black;
+}
+.sub p{
+	color: red;
+	padding-left: 2px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+ul.active {
+    max-height: 500px;
+    transition: max-height 1s 0.1s;
+}
+ul li a {
+ display:block;
+}
+ul li a:hover, ul li a:focus {
+ background-color: #FAB417 !important;
+ color:black;
+}
+.navbar-inverse{
+	background-color: #425166 !important;
+	text-decoration-color: white;
+}
+.navbar-inverse a{
+	color: white;
+}
+.navbar{
+
+}
+/*.navbar-inverse  a.active{
+	color: red !important;
+}
+.main a.active{
+	color: red !important;
+}*/
+
+.menuTitle{
+	background-color: #3B495C;
+	font-size: 17px;
+	color: #ADB6C1;
+    padding-top: 10px;
+}
+.box{
+background-color: #3B495C;
+height: 40px;
+width: 100%;
+text-align: center;
+color: white;
+
+}
+
+a{
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*.sub2, .sub3 {
+    display: none;
+}*/
+
+ ul li a:hover{
+        color: red;
+        background: #939393;
+    }
+ul li ul.dropdowns{
+    min-width: 100%;
+    background: #caccce;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 100%;
+    top: -40px;
+
+}
+
+ul li:hover ul.dropdowns{
+    display: block;	
+
+
+}
+ul li ul.dropdowns li{
+    display: block;
+
+}
+.adjust{
+    width: 293px !important;
+}
+
+.iconAdjust{
+    padding-top: 10px;
+    color: white;
+    padding-right: 10px;
+}
+/*jhgasgdja*/
+ 
